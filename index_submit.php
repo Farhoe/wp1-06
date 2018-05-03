@@ -12,6 +12,9 @@
     if ($age>=18) {
     echo "Tady máš pitíčko.";
     }
+    elseif ($age >= 15) {
+    echo "Už tam skoro seš. Jen musíš ještě párkrát mít narozky.";
+    }
     else {
     echo "Bolí mě ti to říct. Ale.... Není ti plnoletých 18 roků. Sorry. Opravdu";
     }
